@@ -15,6 +15,15 @@ $footer-bg:#f6f6f6;
 $sec-color: #9ea2a9b8; 
 $btn-icons-color:#338d9e61;
 
+button{
+	.btn{
+			.priceBtn {
+	background-color: white !important;
+	color: #3761B0 !important;
+	font-size: 4rem !important;
+	}
+}
+}
 
 .checkout-btn{
 	background-color: $color-header;

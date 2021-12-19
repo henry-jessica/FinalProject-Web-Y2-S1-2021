@@ -1,10 +1,8 @@
 //function to get value from select
 var category = "Drivers";
 var WindshirtsData = "";
-
 function run(e) {
   document.getElementById("select").value;
-  // console.log("Testing---->", e);
   category = e.toString();
   (function () {
     fetch("https://api.npoint.io/4bd83a531f355b7102e5")
@@ -46,7 +44,7 @@ function run(e) {
 
             const button = document.createElement("button");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");          
             button.classList.add("addtocart");
             button.setAttribute("data-id", data.Windshirts[i].code);
 
@@ -63,15 +61,6 @@ function run(e) {
             a.appendChild(img1);
             divb.appendChild(h2);
             a.appendChild(button);
-
-            // const button = document.createElement('button');
-            // button.classList.add("btn");
-            // button.classList.add("btn-dark");
-            // button.classList.add("addtocart");
-            // button.setAttribute("data-id", data.Windshirts[i].code);
-
-            // const text = document.createTextNode("€" + data.Windshirts[i]?.price + "  ");
-            // button.appendChild(text);
 
             divb.appendChild(button);
 
@@ -99,7 +88,7 @@ function run(e) {
             myimg.src = data.Windshirts[i].imgurl;
             const p = document.createElement("p");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.appendChild(text);
             idProduct.textContent = JSON.stringify(data.Windshirts[i]);
@@ -128,7 +117,7 @@ function run(e) {
 
             const button = document.createElement("button");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.setAttribute("data-id", data.Drivers[i].code);
 
@@ -183,7 +172,7 @@ function run(e) {
             const p = document.createElement("p");
 
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
 
             button.appendChild(text);
@@ -207,14 +196,14 @@ function run(e) {
             a.setAttribute('href', '#');
             img1.setAttribute("style", "width:60%");
             img1.alt = data.Wedges[i].textMain;
-            
+
             img1.src = data.Wedges[i].imgurl;
             h2.textContent = data.Wedges[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
 
             const button = document.createElement("button");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.setAttribute("data-id", data.Wedges[i].code);
 
@@ -269,7 +258,7 @@ function run(e) {
             const p = document.createElement("p");
 
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
 
             button.appendChild(text);
@@ -306,7 +295,7 @@ function run(e) {
 
             const button = document.createElement("button");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.setAttribute("data-id", data.Windshirts[i].code);
 
@@ -359,7 +348,7 @@ function run(e) {
             myimg.src = data.Windshirts[i].imgurl;
             const p = document.createElement("p");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.appendChild(text);
             idProduct.textContent = JSON.stringify(data.Windshirts[i]);
@@ -393,7 +382,7 @@ function run(e) {
 
             const button = document.createElement("button");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.setAttribute("data-id", data.Drivers[i].code);
 
@@ -448,7 +437,7 @@ function run(e) {
             const p = document.createElement("p");
 
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
 
             button.appendChild(text);
@@ -483,7 +472,7 @@ function run(e) {
 
             const button = document.createElement("button");
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
             button.setAttribute("data-id", data.Wedges[i].code);
 
@@ -538,7 +527,7 @@ function run(e) {
             const p = document.createElement("p");
 
             button.classList.add("btn");
-            button.classList.add("btn-dark");
+            button.classList.add("priceBtn");
             button.classList.add("addtocart");
 
             button.appendChild(text);
@@ -666,7 +655,7 @@ function renderWedges(data, productsDiv) {
     // divPrice.textContent = data.Windshirts[i].price;
     const button = document.createElement('button');  
     button.classList.add("btn");
-    button.classList.add("btn-dark");
+    button.classList.add("priceBtn");
     button.classList.add("addtocart");
     button.setAttribute("data-id", data.Wedges[i].code);
 
@@ -721,7 +710,7 @@ function renderWedges(data, productsDiv) {
     const p = document.createElement('p');
 
     button.classList.add("btn");
-    button.classList.add("btn-dark");
+    button.classList.add("priceBtn");
     button.classList.add("addtocart");
 
     button.appendChild(text);
@@ -752,7 +741,7 @@ function renderDrivers(data, productsDiv) {
     // divPrice.textContent = data.Windshirts[i].price;
     const button = document.createElement('button');
     button.classList.add("btn");
-    button.classList.add("btn-dark");
+    button.classList.add("priceBtn");
     button.classList.add("addtocart");
     button.setAttribute("data-id", data.Drivers[i].code);
 
@@ -800,7 +789,7 @@ function renderDrivers(data, productsDiv) {
     const p = document.createElement('p');
 
     button.classList.add("btn");
-    button.classList.add("btn-dark");
+    button.classList.add("priceBtn");
     button.classList.add("addtocart");
 
     button.appendChild(text);
@@ -832,7 +821,7 @@ function renderShirts(data, productsDiv) {
     // divPrice.textContent = data.Windshirts[i].price;
     const button = document.createElement('button');
     button.classList.add("btn");
-    button.classList.add("btn-dark");
+    button.classList.add("priceBtn");
     button.classList.add("addtocart");
     button.setAttribute("data-id", data.Windshirts[i].code);
 
@@ -880,7 +869,7 @@ function renderShirts(data, productsDiv) {
     const p = document.createElement('p');
 
     button.classList.add("btn");
-    button.classList.add("btn-dark");
+    button.classList.add("priceBtn");
     button.classList.add("addtocart");
 
     button.appendChild(text);

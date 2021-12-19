@@ -1,5 +1,5 @@
 $(document).ready(function () {
-myFunction();
+// myFunction();
   // if (localStorage.getItem("cartProducts") == null) {
   //   localStorage.setItem('checkout', 0);
   // }
@@ -127,16 +127,16 @@ myFunction();
   });
 });
 
-function myFunction() {
-  let cartProducts = JSON.parse(localStorage.getItem("cartProducts"));
-  console.log(cartProducts);
-  console.log(document.getElementById("checkout").innerHTML);
-  if (document.getElementById("checkout").innerHTML > 0) {
-    document.getElementById("checkout").style.display = "block";
-  } else {
-    // document.getElementById("checkout").innerHTML == cartProducts?.length;
-    document.getElementById("checkout").style.display = "none";
-  }
-}
+// function myFunction() {
+//   let cartProducts = JSON.parse(localStorage.getItem("cartProducts"));
+//   console.log(cartProducts);
+//   console.log(document.getElementById("checkout").innerHTML);
+//   if (document.getElementById("checkout").innerHTML > 0) {
+//     document.getElementById("checkout").style.display = "block";
+//   } else {
+//     // document.getElementById("checkout").innerHTML == cartProducts?.length;
+//     document.getElementById("checkout").style.display = "none";
+//   }
+// }
 
 
