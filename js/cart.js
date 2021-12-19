@@ -6,7 +6,7 @@
     CheckSignIn();
     CheckZero(cartProducts);
     RenderCart(cartProducts);
-    console.log('test', cartProducts.length); 
+    // console.log('test', cartProducts.length); 
 
 })();
 
@@ -80,7 +80,7 @@ function RenderCart(cartProducts) {
         productId.textContent = JSON.stringify(cartProducts[i]);
 
         const quantity = document.createElement('p');
-        console.log(cartProducts[i].count);
+        // console.log(cartProducts[i].count);
         quantity.textContent = "Qty - " + cartProducts[i].count;
         quantity.style.float = "right";
         quantity.style.fontSize = "2em";
@@ -114,7 +114,7 @@ function RenderCart(cartProducts) {
 
     let totalPrice = 0;
     for (let j = 0; j < cartProducts.length; j++) {
-        console.log(cartProducts[j].count)
+        // console.log(cartProducts[j].count)
         totalPrice += parseFloat(cartProducts[j].price  * cartProducts[j].count)
    
     }
@@ -151,7 +151,7 @@ function Remove(event, cartProducts) {
 
     document.getElementById("checkout").innerHTML = cartProducts.length;
     CheckZero(cartProducts);
-    console.log('qty products', cartProducts.length); 
+    // console.log('qty products', cartProducts.length); 
 }
 
 function Clear() {
@@ -175,7 +175,7 @@ function CheckZero(cartProducts) {
 function CheckSignIn() {
     //this function checks to see if the user is logged in
     let loggedIn = localStorage.getItem("loggedIn");
-    console.log(loggedIn);
+    // console.log(loggedIn);
 
     if (loggedIn == 0 || loggedIn == null) {
         let button = document.getElementById("checkoutButton");

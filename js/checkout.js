@@ -1,17 +1,17 @@
 (function () {
- //first we get the cart objects from local storage
- var cartProducts = JSON.parse(localStorage.getItem("cartProducts"));
+ //get object 
+ const cartProducts = JSON.parse(localStorage.getItem("cartProducts"));
  console.log(cartProducts);
 
- //then the total number of items in the cart
- var cartTotal = localStorage.getItem("totalItems");
+ //total of items 
+ let cartTotal = localStorage.getItem("totalItems");
  console.log(cartTotal);
 
- //and finally the total price of all items
- var totalPrice = parseFloat(localStorage.getItem("totalPrice"));
+ //total price
+ let totalPrice = parseFloat(localStorage.getItem("totalPrice"));
  console.log(totalPrice);
 
- //we call our function to update the button
+ //button
  UpdateBuyButton(cartTotal, totalPrice);
 })();
 

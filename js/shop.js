@@ -33,13 +33,14 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-12 col-md-4");
+            diva.setAttribute("class", " col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
              divb.setAttributes({ 'class': "col-inner text-center wind-shirts", 'data-itemid': data.Windshirts[i].itemid });
              a.setAttribute('href', '#');
             img1.setAttribute("style", "width:60%");
             img1.src = data.Windshirts[i].imgurl;
+               img1.alt = data.Windshirts[i].textMain;
             h2.textContent = data.Windshirts[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
 
@@ -114,13 +115,14 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-12 col-md-4");
+            diva.setAttribute("class", "col-sm-4 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
              divb.setAttributes({ 'class': "col-inner text-center drivers", 'data-itemid': data.Drivers[i].itemid });
              a.setAttribute('href', '#');
             img1.setAttribute("style", "width:60%");
             img1.src = data.Drivers[i].imgurl;
+               img1.alt = data.Drivers[i].textMain;
             h2.textContent = data.Drivers[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
 
@@ -199,11 +201,13 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-12 col-md-4");
+            diva.setAttribute("class", "col-sm-4 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Wedges[i].itemid });
             a.setAttribute('href', '#');
             img1.setAttribute("style", "width:60%");
+            img1.alt = data.Wedges[i].textMain;
+            
             img1.src = data.Wedges[i].imgurl;
             h2.textContent = data.Wedges[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
@@ -288,7 +292,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-12 col-md-4");
+            diva.setAttribute("class", "col-sm-4 col-md-4");
             divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Windshirts[i].itemid });
             a.setAttribute('href', '#');
             // divb.setAttribute("class", "col-inner text-center");
@@ -296,6 +300,7 @@ function run(e) {
             // a.setAttribute("href", "");
             img1.setAttribute("style", "width:60%");
             img1.src = data.Windshirts[i].imgurl;
+            img1.alt = data.Windshirts[i].textMain;
             h2.textContent = data.Windshirts[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
 
@@ -375,13 +380,14 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-12 col-md-4");
+            diva.setAttribute("class", "col-sm-4 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
             divb.setAttributes({ 'class': "col-inner text-center drivers", 'data-itemid': data.Drivers[i].itemid });
             a.setAttribute('href', '#');
             img1.setAttribute("style", "width:60%");
             img1.src = data.Drivers[i].imgurl;
+               img1.alt = data.Drivers[i].textMain;
             h2.textContent = data.Drivers[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
 
@@ -464,13 +470,14 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-12 col-md-4");
+            diva.setAttribute("class", "col-sm-4 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
             divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Wedges[i].itemid });
             a.setAttribute('href', '#');
             img1.setAttribute("style", "width:60%");
             img1.src = data.Wedges[i].imgurl;
+               img1.alt = data.Wedges[i].textMain;
             h2.textContent = data.Wedges[i].name;
             // divPrice.textContent = data.Windshirts[i].price;
 
@@ -648,12 +655,13 @@ function renderWedges(data, productsDiv) {
     let img1 = document.createElement('img');
     let h2 = document.createElement('h2');
     h2.setAttribute('class', 'product-name');
-    diva.setAttribute('class', 'col-sm-12 col-md-4');
+    diva.setAttribute('class', 'col-sm-4 col-md-4');
     // divb.setAttribute('class', 'col-inner text-center');
    divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Wedges[i].itemid });
         a.setAttribute('href', '#');
     img1.setAttribute('style', 'width:60%');
     img1.src = data.Wedges[i].imgurl;
+       img1.alt = data.Wedges[i].textMain;
     h2.textContent = data.Wedges[i].name;
     // divPrice.textContent = data.Windshirts[i].price;
     const button = document.createElement('button');  
@@ -733,12 +741,13 @@ function renderDrivers(data, productsDiv) {
     let img1 = document.createElement('img');
     let h2 = document.createElement('h2');
     h2.setAttribute('class', 'product-name');
-    diva.setAttribute('class', 'col-sm-12 col-md-4');
+    diva.setAttribute('class', 'col-sm-4 col-md-4');
     // divb.setAttribute('class', 'col-inner text-center');
     divb.setAttributes({ 'class': "col-inner text-center drivers", 'data-itemid': data.Drivers[i].itemid });
     a.setAttribute('href', '#');
     img1.setAttribute('style', 'width:60%');
     img1.src = data.Drivers[i].imgurl;
+       img1.alt = data.Drivers[i].textMain;
     h2.textContent = data.Drivers[i].name;
     // divPrice.textContent = data.Windshirts[i].price;
     const button = document.createElement('button');
@@ -811,13 +820,14 @@ function renderShirts(data, productsDiv) {
     let img1 = document.createElement('img');
     let h2 = document.createElement('h2');
     h2.setAttribute('class', 'product-name');
-    diva.setAttribute('class', 'col-sm-12 col-md-4');
+    diva.setAttribute('class', 'col-sm-4 col-md-4');
     // divb.setAttribute('class', 'col-inner text-center');
       divb.setAttributes({ 'class': "col-inner text-center wind-shirts", 'data-itemid': data.Windshirts[i].itemid });
         a.setAttribute('href', '#');
 
     img1.setAttribute('style', 'width:60%');
     img1.src = data.Windshirts[i].imgurl;
+       img1.alt = data.Windshirts[i].textMain;
     h2.textContent = data.Windshirts[i].name;
     // divPrice.textContent = data.Windshirts[i].price;
     const button = document.createElement('button');
