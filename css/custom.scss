@@ -15,23 +15,6 @@ $footer-bg:#f6f6f6;
 $sec-color: #9ea2a9b8; 
 $btn-icons-color:#338d9e61;
 
-button{
-	.btn{
-			.priceBtn {
-	background-color: white !important;
-	color: #3761B0 !important;
-	font-size: 4rem !important;
-	}
-}
-}
-
-.checkout-btn{
-	background-color: $color-header;
-	a{
-			color: $color-white;
-	} 
-
-}
 //
 //  MEDIA QUERIES
 //––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -106,6 +89,10 @@ footer {
 	background-color: $footer-bg; 
 	padding: 1rem 0rem;
 
+	.footer-copy{
+		color: $color-dark;
+	}
+
 	h2{
 				color: #333 !important;
 				    font-size: 1rem;
@@ -179,6 +166,15 @@ footer {
 			}
 		}
 	}
+}
+
+.checkout-btn {
+	background-color: $color-header;
+
+	a {
+		color: $color-white;
+	}
+
 }
 
 //==========================Section 

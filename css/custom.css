@@ -14,6 +14,9 @@ body {
   padding: 0;
   height: 100%;
 }
+.footer-copy {
+   color: #333 !important;
+}
 
 footer {
   color: #ffff;
@@ -21,6 +24,7 @@ footer {
   background-color: #f6f6f6;
   padding: 1rem 0rem;
 }
+
 
 footer h2 {
   color: #333 !important;
@@ -302,6 +306,14 @@ header .header-icons a {
 .newsletter {
   color: #0062cc !important;
 }
+
+.priceBtn{
+
+      background-color: white !important;
+      color: #3761B0 !important;
+      font-size: 1.6rem !important;
+}
+
 
 @media (max-width: 991px) {
   .newsletter-subscribe {
