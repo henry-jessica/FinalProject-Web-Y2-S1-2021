@@ -31,7 +31,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", " col-md-4");
+            diva.setAttribute("class", " col-md-4 col-6");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
              divb.setAttributes({ 'class': "col-inner text-center wind-shirts", 'data-itemid': data.Windshirts[i].itemid });
@@ -71,7 +71,7 @@ function run(e) {
             const div8 = document.createElement("div");
             div8.setAttribute("class", "col-inner");
             const card = document.createElement("div");
-            card.setAttribute("class", "col-md-4");
+            card.setAttribute("class", "col-md-4 col-6");
             card.classList.add("card");
 
             const h3 = document.createElement("h3");
@@ -104,7 +104,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-4 col-md-4");
+            diva.setAttribute("class", "col-6 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
              divb.setAttributes({ 'class': "col-inner text-center drivers", 'data-itemid': data.Drivers[i].itemid });
@@ -190,7 +190,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-4 col-md-4");
+            diva.setAttribute("class", "col-6 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Wedges[i].itemid });
             a.setAttribute('href', '#');
@@ -239,7 +239,7 @@ function run(e) {
             const div8 = document.createElement("div");
             div8.setAttribute("class", "col-inner");
             const card = document.createElement("div");
-            card.setAttribute("class", "col-md-4");
+            card.setAttribute("class", "col-md-4 col-6");
             card.classList.add("card");
 
             const h3 = document.createElement("h3");
@@ -281,7 +281,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-4 col-md-4");
+            diva.setAttribute("class", "col-6 col-md-4");
             divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Windshirts[i].itemid });
             a.setAttribute('href', '#');
             // divb.setAttribute("class", "col-inner text-center");
@@ -331,7 +331,7 @@ function run(e) {
             const div8 = document.createElement("div");
             div8.setAttribute("class", "col-inner");
             const card = document.createElement("div");
-            card.setAttribute("class", "col-md-4");
+            card.setAttribute("class", "col-6 col-md-4");
             card.classList.add("card");
 
             const h3 = document.createElement("h3");
@@ -369,7 +369,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-4 col-md-4");
+            diva.setAttribute("class", "col-6 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
             divb.setAttributes({ 'class': "col-inner text-center drivers", 'data-itemid': data.Drivers[i].itemid });
@@ -418,7 +418,7 @@ function run(e) {
             const div8 = document.createElement("div");
             div8.setAttribute("class", "col-inner");
             const card = document.createElement("div");
-            card.setAttribute("class", "col-md-4");
+            card.setAttribute("class", "col-6 col-md-4");
             card.classList.add("card");
 
             const h3 = document.createElement("h3");
@@ -459,7 +459,7 @@ function run(e) {
             let img1 = document.createElement("img");
             let h2 = document.createElement("h2");
             h2.setAttribute("class", "product-name");
-            diva.setAttribute("class", "col-sm-4 col-md-4");
+            diva.setAttribute("class", "col-6 col-md-4");
             // divb.setAttribute("class", "col-inner text-center");
             // a.setAttribute("href", "");
             divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Wedges[i].itemid });
@@ -508,7 +508,7 @@ function run(e) {
             const div8 = document.createElement("div");
             div8.setAttribute("class", "col-inner");
             const card = document.createElement("div");
-            card.setAttribute("class", "col-md-4");
+            card.setAttribute("class", "col-6 col-md-4");
             card.classList.add("card");
 
             const h3 = document.createElement("h3");
@@ -644,7 +644,7 @@ function renderWedges(data, productsDiv) {
     let img1 = document.createElement('img');
     let h2 = document.createElement('h2');
     h2.setAttribute('class', 'product-name');
-    diva.setAttribute('class', 'col-sm-4 col-md-4');
+    diva.setAttribute('class', 'col-6 col-md-4');
     // divb.setAttribute('class', 'col-inner text-center');
    divb.setAttributes({ 'class': "col-inner text-center wedges", 'data-itemid': data.Wedges[i].itemid });
         a.setAttribute('href', '#');
@@ -691,7 +691,7 @@ function renderWedges(data, productsDiv) {
     const div8 = document.createElement('div');
     div8.setAttribute('class', 'col-inner');
     const card = document.createElement('div');
-    card.setAttribute('class', 'col-md-4');
+    card.setAttribute('class', 'col-6 col-md-4');
     card.classList.add("card");
 
     const h3 = document.createElement('h3');
@@ -730,7 +730,7 @@ function renderDrivers(data, productsDiv) {
     let img1 = document.createElement('img');
     let h2 = document.createElement('h2');
     h2.setAttribute('class', 'product-name');
-    diva.setAttribute('class', 'col-sm-4 col-md-4');
+    diva.setAttribute('class', 'col-6 col-md-4');
     // divb.setAttribute('class', 'col-inner text-center');
     divb.setAttributes({ 'class': "col-inner text-center drivers", 'data-itemid': data.Drivers[i].itemid });
     a.setAttribute('href', '#');
@@ -809,7 +809,7 @@ function renderShirts(data, productsDiv) {
     let img1 = document.createElement('img');
     let h2 = document.createElement('h2');
     h2.setAttribute('class', 'product-name');
-    diva.setAttribute('class', 'col-sm-4 col-md-4');
+    diva.setAttribute('class', 'col-6 col-md-4');
     // divb.setAttribute('class', 'col-inner text-center');
       divb.setAttributes({ 'class': "col-inner text-center wind-shirts", 'data-itemid': data.Windshirts[i].itemid });
         a.setAttribute('href', '#');
