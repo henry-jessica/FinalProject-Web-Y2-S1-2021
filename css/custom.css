@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+.checkout-btn {
+  background-color: #385723;
+}
+
+.checkout-btn a {
+  color: #ffff;
+}
+
+body {
+  font-family: "Jura", sans-serif;
+  color: "#1f3646";
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  color: #ffff;
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 1rem 0rem;
+}
+
+footer h2 {
+  color: #333 !important;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 1rem 0px 0px 0px;
+}
+
+footer ul {
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul a {
+  color: #333 !important;
+  font-size: 1rem !important;
+}
+
+footer p em {
+  font-style: normal;
+  font-weight: 700;
+  color: #ffff;
+}
+
+footer .primary-button {
+  margin-bottom: 40px;
+}
+
+footer .primary-button a {
+  text-decoration: none;
+  margin-top: 15px;
+  width: auto;
+  padding: 0px 18px;
+  height: 36px;
+  background-color: #338d9e61;
+  font-size: 13px;
+  color: #121212;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+}
+
+footer .social-icons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+footer .social-icons li {
+  display: inline-block;
+  margin: 0px 3px 1rem;
+}
+
+footer .social-icons li a {
+  font-size: 35px;
+  color: black;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  background-color: #9ea2a9b8;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+footer .social-icons li :hover {
+  background-color: #338d9e61;
+  color: #338d9e61;
+}
+
+#sector1 .col-inner {
+  margin-bottom: 1.5rem;
+}
+
+.btn .btn-primary {
+  background: none;
+}
+
+header .black-strip {
+  background-color: #121212;
+  color: white;
+}
+
+header #second {
+  float: right;
+}
+
+nav {
+  color: #8b8f93;
+  font-size: 1.3rem;
+}
+
+nav #loginlogout {
+  background: none !important;
+  border: none;
+  color: #8b8f93;
+  font-size: 1.3rem;
+}
+
+#checkout {
+  font-size: 14px;
+  position: absolute;
+  padding: 2px;
+  height: 25px;
+  width: 25px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 80%;
+  background: #eb5a2c;
+}
+
+.navbar-nav .navbar-center {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+}
+
+.navbar-nav li {
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.navbar-nav li #active, .navbar-nav li .active {
+  border-bottom: 2px solid #385723;
+}
+
+.navbar-nav :hover {
+  background-color: #d7dadf;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card-wrapper {
+  width: 400px;
+  margin-bottom: 13rem;
+}
+
+header .header-icons li {
+  list-style-type: none;
+}
+
+header .header-icons a {
+  font-size: 35px;
+  color: black;
+}
+
+#active_footer {
+  text-decoration: underline;
+}
+
+.product-name {
+  font-family: Jura, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  padding-bottom: 15px;
+  max-height: 81px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  font-weight: 600;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.images {
+  height: 25rem;
+}
+
+.title {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.product-main-img .img-fluid {
+  width: 100%;
+  height: 35em;
+  border: 1px solid white;
+  background-position: top;
+  background-size: 40em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.newsletter-subscribe {
+  color: #313437;
+  background-color: #f6f6f6;
+  padding: 0px 74px;
+}
+
+.newsletter-subscribe h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom: 35px;
+}
+
+.newsletter-subscribe form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.newsletter-subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+
+.newsletter-subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity: 1;
+}
+
+.newsletter-subscribe form .btn:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color: #055ada !important;
+  color: #e9ebef;
+  outline: none !important;
+}
+
+.newsletter {
+  color: #0062cc !important;
+}
+
+@media (max-width: 991px) {
+  .newsletter-subscribe {
+    color: #313437;
+    background-color: #f6f6f6;
+    padding: 0px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .newsletter-subscribe {
+    color: #313437;
+    background-color: #f6f6f6;
+    padding: 0px 0px;
+  }
+  .newsletter-subscribe .btn {
+    margin: 0.2rem 0px 1.2rem 0px;
+  }
+  .newsletter-subscribe .intro, .newsletter-subscribe .newsletter-subscribe, .newsletter-subscribe h2 {
+    padding: 1rem 0rem 0rem 0rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .card-wrapper {
+    width: 50rem;
+  }
+  footer {
+    font-size: 0.9rem;
+  }
+  footer .social-icons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  footer .social-icons li {
+    display: inline-block;
+    margin: 0px 3px 1rem;
+  }
+  footer .social-icons li :hover {
+    background-color: #338d9e61;
+    color: #1f3646;
+  }
+  footer .social-icons li a {
+    font-size: 35px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #9ea2a9b8;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+}
+
+h3,
+a,
+p {
+  color: #1f2124;
+}
+
+h4 {
+  font-size: 1rem !important;
+  line-height: 1rem;
+}
+
+.widget-list li a:hover {
+  text-decoration: underline;
+}
+
+.widget .card-header {
+  background: #fff;
+}
+
+.widget .card-header a {
+  width: 100%;
+  display: block;
+}
+
+.widget .card-header a:after {
+  content: "+";
+  position: absolute;
+  right: 40px;
+  top: .9rem;
+  -webkit-transition: -webkit-transform .25s ease-in-out;
+  transition: -webkit-transform .25s ease-in-out;
+  transition: transform .25s ease-in-out;
+  transition: transform .25s ease-in-out, -webkit-transform .25s ease-in-out;
+}
+
+.widget .card-header a:hover, .widget .card-header a:focus {
+  text-decoration: none;
+}
+
+.widget .card-header a[aria-expanded="true"]:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.widget .card-block {
+  padding: 0 1.3rem;
+}
+
+.widget .card-block .widget-list li {
+  margin-bottom: 4px;
+}
+
+footer h3,
+footer a,
+footer p {
+  color: #1f2124;
+}
+
+footer h4 {
+  font-size: 1rem !important;
+  line-height: 1rem;
+}
+
+footer .widget-list li a:hover {
+  text-decoration: underline;
+}
+
+footer .widget .card-header {
+  background: #fff;
+}
+
+footer .widget .card-header a {
+  width: 100%;
+  display: block;
+}
+
+footer .widget .card-header a:after {
+  content: "+";
+  position: absolute;
+  right: 40px;
+  top: .9rem;
+  -webkit-transition: -webkit-transform .15s ease-in-out;
+  transition: -webkit-transform .15s ease-in-out;
+  transition: transform .15s ease-in-out;
+  transition: transform .15s ease-in-out, -webkit-transform .15s ease-in-out;
+}
+
+footer .widget .card-header a:hover, footer .widget .card-header a:focus {
+  text-decoration: none;
+}
+
+footer .widget .card-header a[aria-expanded="true"]:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+footer .widget .card-block {
+  padding: 0 1.3rem;
+}
+
+footer .widget .card-block .widget-list li {
+  margin-bottom: 4px;
+}
+/*# sourceMappingURL=custom.css.map */

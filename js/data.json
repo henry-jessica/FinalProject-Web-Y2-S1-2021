@@ -1,0 +1,289 @@
+{
+  "Drivers": [
+  {
+  "itemid": "001",
+  "brand": "RX7",
+  "name": "Rife RX7 Driver",
+  "price": "185.90",
+  "imgurl": "images/rife-rx-7-driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+    "code":"4352",
+  "color":["Graphite","Black"],
+  "textMain":"The aerodynamically designed 460cc forged titanium driver head helps to reduce energy loss during the downswing, increasing head speed adding to improved driving distance.",
+  "tags": ["rife", "RX-78FA", "matching", "aerodynamically", "460cc", "speed", "reduce loss", "titanium", "professional"], 
+  "offer": ["The Best Seller"]
+   },
+  
+  {
+  "itemid": "002",
+  "brand": "TAYLORMADE",
+  "name": "SIM2 MAX DRIVER",
+  "price": "438,90",
+  "imgurl": "images/368827-TaylorMade-SIM2-MAX-Driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "code":"368827",
+  "color":["Graphite","Black"],
+  "textMain":"The new SIM2 MAX driver has been shaped for forgiveness with a new Forged Ring Construction to give you more speed and forgiveness, allowing you to swing with more confidence.",
+  "tags": ["Ridgeback Technology / Dual Carbon Wings", "SIM INERTIA GENERATOR", "FORGED RING CONSTRUCTION  ", "460cc", "speed", "reduce loss", "titanium", "professional"], 
+  "offer": ["The Best Seller"]   
+},
+  {
+  "itemid": "003",
+  "brand": "Tour Edge ",
+  "name": "Exotics C721 Driver",
+  "price": "485.90",
+  "imgurl": "images/393185-Tour-Edge-Exotics-C721-Driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "code":"45362",
+  "color":["Graphite","Black"],
+  "textMain":"The aerodynamically designed 460cc forged titanium driver head helps to reduce energy loss during the downswing, increasing head speed adding to improved driving distance.",
+  "tags": ["Rear Back Weight / Adjustable Hosel", "Diamond Face 2.0 Design / Sound Diffusion Panels", "matching", "aerodynamically", "12 Months Warranty / Premium Graphite Shaft", "speed", "reduce loss", "titanium", "professional"], 
+  "offer": ["The Best Seller"]
+   },
+  {
+  "itemid": "004",
+  "brand": "RX7",
+  "name": "Rife RX7 Driver",
+  "price": "185.90",
+  "imgurl": "images/365743-Benross-Aero-Blue-55-61-HL-Junior-Driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "color":["Graphite","Black"],
+  "code":"5463",
+  "textMain":"The aerodynamically designed 460cc forged titanium driver head helps to reduce energy loss during the downswing, increasing head speed adding to improved driving distance.",
+  "tags": ["rife", "RX-78FA", "matching", "aerodynamically", "460cc", "speed", "reduce loss", "titanium", "professional"]
+   },
+
+  {
+  "itemid": "005",
+  "brand": "Cobra Golf ",
+  "name": "RADSPEED XD Driver",
+  "price": "485.90",
+  "imgurl": "images/369280-Cobra-Golf-RADSPEED-Driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "code":"2030",
+  "color":["Graphite","Black"],
+  "textMain":"The aerodynamically designed 460cc forged titanium driver head helps to reduce energy loss during the downswing, increasing head speed adding to improved driving distance.",
+  "tags": ["rife", "RX-78FA", "matching", "aerodynamically", "460cc", "speed", "reduce loss", "titanium", "professional"]
+   },
+
+   {
+  "itemid": "006",
+  "brand": "RX7",
+  "name": "Rife RX7 Driver",
+  "price": "185.90",
+  "imgurl": "images/rife-rx-7-driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "color":["Graphite","Black"],
+  "code":"2020",
+  "textMain":"The aerodynamically designed 460cc forged titanium driver head helps to reduce energy loss during the downswing, increasing head speed adding to improved driving distance.",
+  "tags": ["rife", "RX-78FA", "matching", "aerodynamically", "460cc", "speed", "reduce loss", "titanium", "professional"]
+   }
+ ], 
+  "Windshirts":[
+  {
+  "itemid": "007",
+  "brand": "Ping",
+  "name": "PING NORSE S3 JACKET",
+  "price": "34.95",
+  "oldPrice": "175.95",
+  "imgurl": "images/ping.jpeg",
+  "sizes":["Small","Medium","Large","XL","Xxl"],
+  "stoque":"15", 
+  "color":["Graphite","Black"],
+  "textMain":"Perform with less distraction in the cold, with this high-performing golf layer from Under Armour. Unique in construction, with breathable insulation combined with smooth spacer fabric. This is soft and incredibly warm, plus has a UA Storm finish which repels water without sacrificing breathability. The layer has a full-zip opening and hood, plus is highlighted with reflective brand details.",
+  "tags": ["Stretch Properties", "Cold Protection", "UA Storm Technology", "Upper Front / Lower back: 91% Polyester / 9% Elastane - Lower Front / Upper Back / Sleeves: 88% Polyester / 12% Elastane"],
+  "code":"392398",
+  "gender":"male"
+   }, 
+   {
+  "itemid": "008",
+  "brand": "UNDER ARMOUR",
+  "name": "STORM DAYTONA FULL-ZIP HOODED MIDLAYER",
+  "price": "99.95",
+  "oldPrice": "175.95",
+  "imgurl": "images/underarmour.jpeg",
+  "sizes":["Small","Medium","Large","XL","Xxl"],
+  "stoque":"15", 
+  "color":["Black"],
+  "code":"39213",
+  "textMain":"Perform with less distraction in the cold, with this high-performing golf layer from Under Armour. Unique in construction, with breathable insulation combined with smooth spacer fabric. This is soft and incredibly warm, plus has a UA Storm finish which repels water without sacrificing breathability. The layer has a full-zip opening and hood, plus is highlighted with reflective brand details.",
+  "tags": ["Stretch Properties", "Cold Protection", "UA Storm Technology", "Upper Front / Lower back: 91% Polyester / 9% Elastane - Lower Front / Upper Back / Sleeves: 88% Polyester / 12% Elastane"],
+  "gender":"male"
+ }, 
+ {
+  "itemid": "009",
+  "brand": "UNDER ARMOUR",
+  "name": "STORM DAYTONA MIDLAYER",
+  "price": "167.95",
+  "oldPrice": "85.95",
+  "imgurl": "images/392373-Royal-Academy-Reflective-Under-Armour-Storm-Daytona-Midlayer-1.jpeg",
+  "sizes":["Small","Medium","Large","XL","Xxl"],
+  "stoque":"15", 
+  "color":["Blue"],
+  "code":"3934",
+  "textMain":"Perform with less distraction in the cold, with this high-performing golf layer from Under Armour. Unique in construction, with breathable insulation combined with smooth spacer fabric. This is soft and incredibly warm, plus has a UA Storm finish which repels water without sacrificing breathability. The layer has a half-zip opening and features a raised collar, plus is highlighted with reflective brand details.",
+  "tags": ["Stretch Properties", "UA Storm Technology", "UV Protection", "Cold Protection", "Upper Front / Lower back: 91% Polyester / 9% Elastane - Lower Front / Upper Back / Sleeves: 88% Polyester / 12% Elastane"],
+  "gender":"Ladies", 
+  "offer": "New"   
+ }, 
+
+   {
+  "itemid": "016",
+  "brand": "STROMBERG",
+  "name": "LADIES KORDA JACKET",
+  "price": "167.95",
+  "oldPrice": "175.95",
+  "imgurl": "images/394743-tap-stromberg-korda-jacket-1.jpeg",
+  "sizes":["Small","Medium","Large","XL","Xxl"],
+  "stoque":"15", 
+  "color":["White and Grey"],
+  "code":"3924",
+  "textMain":"This modern sports layer has a lot to offer while playing golf. The garment is fully functional with a breathable drycool and moisture-wicking fabric to enable you to fully focus on the game ahead. It is light and very stretchy, plus has built-in UV protection as you perform. Designed with contrast colour shoulders and sleeves, and a front zip opening in contrasting colour.",
+  "tags": ["Performance Construction", "Moisture Management", "UV Protection", "100% Polyester"],
+  "gender":"Ladies", 
+  "offer": "New"   
+ }, 
+    {
+  "itemid": "010",
+  "brand": "STROMBERG",
+  "name": "LADIES KORDA JACKET",
+  "price": "167.95",
+  "oldPrice": "229.95",
+  "imgurl": "images/393963-Navy-GOLFINO-Strikes-Hybrid-Jacket-1.jpeg",
+  "sizes":["Small","Medium","Large","XL","Xxl"],
+  "stoque":"15", 
+  "color":["Dark"],
+  "code":"3952",
+  "textMain":"Wide swings are no problem with this jacket, specifically designed to meet the requirements of golfers, who also want to play when the weather gets cold. It has stretch properties to move freely and has a quilted torso to keep your body core warm and comfortable as you play golf. It has a contrasting full-zip opener, zip side pockets, and has a high collar to protect your neck against cold breezes.",
+  "tags": ["Stretch Properties", "Quilted Body", "High Collar", "91% Polyester / 9% Elastane"],
+  "gender":"male", 
+  "offer": "New"   
+ }, 
+
+
+
+
+    {
+  "itemid": "017",
+  "brand": "STROMBERG",
+  "name": "RIDGE MIDLAYER",
+  "price": "69.95",
+  "oldPrice": "175.95",
+  "imgurl": "images/394601-pea-stromberg-ridge-midlayer-1.jpeg",
+  "sizes":["Small","Medium","Large","XL","Xxl"],
+  "stoque":"15", 
+  "color":["Black and Blue"],
+  "code":"395231",
+  "textMain":"Stromberg is passionate about golf, that is why this hoody has been designed around you - because you want style as well as performance. This midlayer comes in a durable water repellent finish to help keep you dryer on or off the golf course.",
+  "tags": ["Contrast textured spacer fabric", "Contrast tape on zip", "DWR finish", "88% polyester, 12% elastane"],
+  "gender":"Ladies", 
+   "offer":"New" 
+   
+ }
+  ], 
+    "Wedges": [
+  {
+  "itemid": "018",
+  "brand": "Fazer",
+  "name": "XR2 NICKEL WEDGE",
+  "price": "185.90",
+  "imgurl": "images/352390-Fazer-XR2-Nickel-Wedge-8.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+   "code":"394601",
+  "color":["Graphite","Black"],
+  "textMain":"The XR2 nickel wedge has a slightly oversize traditional head shape with perfect hosel/face progression for confidence at address. Optimum head weight distribution from the back flange to the sole area assists to maximize spin and distance, while improving accuracy.",
+  "tags": ["Nickel Finish", "Traditional Head Shape", "Optimum Weight Distribution", "12 Months Warranty / Wedge Flex Steel Shaft", "speed", "reduce loss", "titanium", "professional"], 
+  "offer": ["The Best Seller"]
+   },
+  
+  {
+  "itemid": "011",
+  "brand": "WILSON",
+  "name": "STAFF FG TOUR PMP CHROME WEDGE",
+  "price": "89,90",
+  "imgurl": "images/296233_1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "code":"394692",
+  "color":["Silver"],
+  "textMain":"Get control of your sort game with the impressive Wilson Staff FG Tour PMP Chrome Wedge. This fantastic wedge offers spin control on long shots and short game control around the greens.",
+  "tags": ["Traditional Sole Designs", "Tour Frosted Finish", "Precision Milled Performance", "12 Month Guarantee and KBS Hi-Rev 2.0 Steel Shaft"], 
+  "offer": ["The Best Seller"]   
+},
+  {
+  "itemid": "012",
+  "brand": "CLEVELAND",
+  "name": "GOLF RTX ZIPCORE BLACK SATIN WEDGE",
+  "price": "159.90",
+  "imgurl": "images/364377-Cleveland-Golf-RTX-ZipCore-Black-Satin-Wedge-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "code":"45362",
+  "color":["Graphite","Black"],
+  "textMain":"This is RTX ZipCore, a radical wedge with key innovations such as ZipCore and UltiZip grooves and a new heat treatment process for long-lasting performance",
+  "tags": ["ZipCore Technology", "UltiZip Grooves", "Stainless Steel Construction", "New Heat Treatment Process"], 
+  "offer": ["The Best Seller"]
+   },
+  {
+  "itemid": "013",
+  "brand": "RX7",
+  "name": "Rife RX7 Driver",
+  "price": "185.90",
+  "imgurl": "images/365743-Benross-Aero-Blue-55-61-HL-Junior-Driver-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "color":["Graphite","Black"],
+  "code":"5463",
+  "textMain":"The aerodynamically designed 460cc forged titanium driver head helps to reduce energy loss during the downswing, increasing head speed adding to improved driving distance.",
+  "tags": ["rife", "RX-78FA", "matching", "aerodynamically", "460cc", "speed", "reduce loss", "titanium", "professional"]
+   },
+
+  {
+  "itemid": "014",
+  "brand": "Cobra Golf",
+  "name": "COBRA GOLF KING SNAKEBITE VERSATILE STEEL WEDGE",
+  "price": "128.90",
+  "imgurl": "images/369421-Cobra-Golf-King-Snakebite-Versatile-Steel-Wedge-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "code":"2030",
+  "color":["Silver"],
+  "textMain":"Gain more bite around the greens with Snakebite Groove Technology. Re-engineered with a new cutting method which increases the groove depth by 11% and sharpens the edges by 40% to deliver maximum spin to the ball.",
+  "tags": ["Snakebite Groove Technology", "CNC Milled", "Versatile Grind", "12 Months Warranty / KBS Hi-Rev 2.0 Steel Shaft / Lamkin Crossline Smart Grip"], 
+  "offer": ["The Best Seller"]      
+},
+
+   {
+  "itemid": "015",
+  "brand": "TAYLORMADE",
+  "name": "MILLED GRIND 2 SATIN CHROME WEDGE",
+  "price": "197.90",
+  "imgurl": "images/350758-TaylorMade-Milled-Grind-2-Chrome-Wedge-1.jpeg",
+  "hand":"Right",
+  "flex":["Regular","Stiff"],
+  "loft":"10.5", 
+  "color":["Graphite","Black"],
+  "code":"2020",
+  "textMain":"This Tour Preferred wedge features a Raw Face Design which has been designed to rust over time to produce a better feel. It has a stunning Satin Chrome Finish with ZTP RAW Grooves which are sharper, deeper, narrower, engineered for maximum greenside spin.",
+  "tags": ["Precision Milled / Raw Face Design", "ZTP RAW Grooves / Laser Etched Pattern", "Thick-Thin Head Design / TPU Insert", "24 Months Warranty / TT Dynamic Gold S200 Steel Shaft / TM Lamkin Crossline Soft Cord Grip"]
+   }
+ ]
+}
